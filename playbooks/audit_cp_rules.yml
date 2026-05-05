@@ -1,0 +1,13 @@
+---
+- name: CheckPoint Rule Expiry Audit
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Run expiry script
+      command: python3 scripts/cp_rule_expiry.py --config config/config_r81.json
+      register: result
+
+    - name: Show output
+      debug:
+        var: result.stdout

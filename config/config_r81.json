@@ -1,0 +1,15 @@
+{
+  "management": {
+    "host": "10.4.7.5",
+    "username": "tranhuyhoang_v",
+    "password": "Thang9@2025"
+  },
+  "packages": [
+    "SHB_UAT_VSX02"
+  ],
+  "days": 5,
+  "telegram": {
+    "token": "8717469130:AAG5F8BvflSoLTfP5f6jZoPwRJLD8IzPzu4",
+    "chat_id": "-5232676163"
+  }
+}
